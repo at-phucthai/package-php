@@ -1,0 +1,16 @@
+{
+    "name": "main/your-project",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["relevant","tags","go","here"],
+    "homepage": "https://yourcompany.com",
+    "license": "MIT",
+    "authors": [
+        {
+             "name": "phucthai",
+             "email": "phuc.thai@asiantech.vn",
+             "homepage": "http://nhannvt.com",
+             "role": "Developer"
+        }
+    ]
+}
