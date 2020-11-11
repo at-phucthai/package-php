@@ -1,16 +1,21 @@
 {
-    "name": "main/your-project",
-    "type": "library",
-    "description": "Your package description goes here",
-    "keywords": ["relevant","tags","go","here"],
-    "homepage": "https://yourcompany.com",
-    "license": "MIT",
+    "name": "phucthai/package-php",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "aaa",
     "authors": [
         {
-             "name": "phucthai",
-             "email": "phuc.thai@asiantech.vn",
-             "homepage": "http://nhannvt.com",
-             "role": "Developer"
+            "name": "phucthai",
+            "email": "nguyen.manh.ky@framgia.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "phucthai\\SayHello\\": "src/"
+        }
+    }
 }
